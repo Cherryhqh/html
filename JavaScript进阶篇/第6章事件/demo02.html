@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>鼠标经过事件</title>
+    <script type="text/javascript">
+        function info(){
+            confirm("请输入用户名后，再单击确定");
+        }
+    </script>
+</head>
+<body>
+<form>
+    用户名:
+    <input  type="text" name="username">
+    <input name="button" type="button" value="确定" onmouseover="info()"/>
+
+</form>
+
+</body>
+</html>

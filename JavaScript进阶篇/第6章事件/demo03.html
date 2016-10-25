@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>鼠标移开事件</title>
+
+    <script type="text/javascript">
+        /*鼠标移开事件：当鼠标移开当前对象时，执行onmouseout条用的程序*/
+        function message(){
+            confirm("不要离开，只要输入密码，再单击登录，就OK了");
+
+        }
+    </script>
+
+</head>
+<body>
+<from>
+    密码：<input type="text" name="passwd"/>
+    <input name="button" type="button" value="登录" onmouseout="message()"/>
+    <!--当移开“登录”按钮，触onmouseout="message()"-->
+</from>
+</body>
+</html>
