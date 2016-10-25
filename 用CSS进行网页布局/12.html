@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>两列布局</title>
+    <style type="text/css">
+        #wrap{
+            width:960px;
+            margin:0 auto;
+        }
+        #head{
+            background:#99FFCC;
+            border:1px solid red;
+        }
+        #main{
+            background: #ffff00;
+            border:2px solid green;
+            width:100%;
+            overflow:hidden;
+
+        }
+        .left{
+            background:#FF3300;
+            width:800px;
+            height:300px;
+            float:left;
+
+        }
+        .right{
+            background: #cccccc;
+            width:140px;
+            height:800px;
+            float:right;
+        }
+        #foot{
+            background: #FFCCCC;
+            border:3px solid yellow;
+
+        }
+    </style>
+</head>
+<body>
+<div id="wrap">
+<div id="head">head</div>
+<div id="main">main
+    <div class="left">left</div>
+    <div class="right">right</div>
+</div>
+<div id="foot">foot</div>
+</div>
+</body>
+</html>

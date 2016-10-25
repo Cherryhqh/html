@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>三列布局</title>
+    <style type="text/css">
+    body{
+        margin:0;
+        padding:0;
+        font-size:20px;
+        font-weight:bold;
+    }
+    div{
+        text-align:center;
+        line-height:50px;
+    }
+    .main{
+        width:600px;
+        height:500px;
+        margin:0 auto;
+        position:relative;
+
+    }
+        .left{
+            width:100px;
+            height:500px;
+            position:absolute;
+            left:0;
+            top:0;
+            background:#ffff00;
+        }
+        .right{
+            width:100px;
+            height:500px;
+            position:absolute;
+            right:0;
+            top:0;
+            background:#222222;
+        }
+        .middle{
+            height:500px;
+            margin:0 100px 0 100px;
+            background:#993300;
+        }
+    </style>
+</head>
+<body>
+<div class="main">
+    <div class="left">200px</div>
+    <div class="right">300px</div>
+    <div class="middle">设计首页的第一步是设计版面布局。就象传统的报刊杂志编辑一样，</div>
+</div>
+
+</body>
+</html>

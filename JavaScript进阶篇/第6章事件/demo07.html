@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>onChange</title>
+    <script type="text/javascript">
+        function  message() {
+            alert("您改变了文本的内容");
+        }
+    </script>
+</head>
+<body>
+<from>
+    用户：<input name="username" type="text"  value="请输入用户名" onChange="message()"/>
+    <!--当用户改变文本框的文字后，触发onChange事件-->
+</from>
+</body>
+</html>
